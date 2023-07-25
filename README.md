@@ -18,7 +18,7 @@
 
 ## :dart: About ##
 
-Program allowing the conversion of a sentence entered as an argument into ascii.
+Program turning an ASCII file to its equivalent written in console output
 
 ## :white_check_mark: Requirements ##
 
@@ -28,13 +28,13 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) , 
 
 ```bash
 # Clone this project
-$ git clone https://zone01normandie.org/git/gthenard/ascii-art.git
+$ git clone https://zone01normandie.org/git/avaren/ascii-art-reverse.git
 
 # Access
-$ open fichier by VScode
+$ open with VScode
 
 # Run the project
-$ go run . <option> "texte a convertir" <template>
+$ go run . "--reverse=<file to convert>"
 
 ```
 
